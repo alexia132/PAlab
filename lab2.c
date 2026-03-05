@@ -3,8 +3,9 @@
 
 int function(int x){
 	x=x-2;
+	if (x<=0) return x;  
 	x=function(x);
-	return x;
+	
 }
 
 int main(){
